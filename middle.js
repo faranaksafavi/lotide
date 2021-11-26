@@ -1,5 +1,5 @@
 assertEqual = require("./assertEqual.js");
-isEqlArray = require("./isEqlArray.js");
+isEqlArray = require("./eqArray.js");
 
 function middle(myList) {
   let result = [];
