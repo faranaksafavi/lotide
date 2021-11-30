@@ -11,18 +11,3 @@ const countLetters = function (str) {
     result[i]=count;} );
   return result;
 };
-
-assertEqual(
-  countLetters("fffr"),
-  { f: 3, r: 1 },
-  (a, b) => {
-    let res = true;
-    for (const key in a) {
-      if (!(a[key] == b[key])) {
-        res = false;
-        break;
-      }
-    }
-    return res;
-  }
-);

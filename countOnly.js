@@ -13,33 +13,3 @@ const countOnly = function (data, obj) {
   }
   return result;
 };
-const firstNames = [
-  "Karl",
-  "Salima",
-  "Agouhanna",
-  "Fang",
-  "Kavith",
-  "Jason",
-  "Salima",
-  "Fang",
-  "Joe",
-];
-assertEqual(
-  countOnly(firstNames, {
-    Jason: true,
-    Karima: true,
-    Fang: true,
-    Agouhanna: false,
-  }),
-  { Jason: 1, Fang: 2 },
-  (a, b) => {
-    let res = true;
-    for (const key in a) {
-      if (!(a[key] == b[key])) {
-        res = false;
-        break;
-      }
-    }
-    return res;
-  }
-);
