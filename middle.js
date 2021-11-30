@@ -1,7 +1,4 @@
-assertEqual = require("./assertEqual.js");
-isEqlArray = require("./eqArray.js");
-
-function middle(myList) {
+const middle = function(myList) {
   let result = [];
   let len = myList.length;
   if (len % 2 === 0) {
@@ -11,8 +8,5 @@ function middle(myList) {
     result.push(myList[Math.floor(len / 2)]);
   }
   return result;
-}
-
-assertEqual(middle([2, 3, 8]), [3],isEqlArray);
-assertEqual(middle([5, 6 , 3 , 7]), [6 , 3] ,isEqlArray);
-assertEqual(middle(["Hello", "Lighthouse", "Labs"]), ["Lighthouse"],isEqlArray);
+};
+module.exports = middle;
