@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@faranaksafavi/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "A mini clone of Lodash Library",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/faranaksafavi/lotide.git"
   },
-  "author": "",
+  "author": "Faranak Safavi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/faranaksafavi/lotide/issues"
