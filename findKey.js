@@ -1,5 +1,5 @@
 assertEqual = require("./assertEqual.js");
-callback = require("./eqArray.js");
+isEqlArray = require("./eqArray.js");
 
 const findKey = function (obj, callback) {
   let result;

@@ -1,6 +1,3 @@
-assertEqual = require("./assertEqual.js");
-isEqlArray = require("./eqArray.js");
-
 const countOnly = function (data, obj) {
   let result = {};
   let keysValueS = Object.entries(obj);
